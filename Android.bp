@@ -60,6 +60,10 @@ cc_defaults {
     sdk_version: "current",
     min_sdk_version: "30",
 
+    lto: {
+        never: true,
+    },
+
     ldflags: [
     ],
 }
